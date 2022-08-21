@@ -1,0 +1,11 @@
+#footer {
+    background-color: #205375;
+    /* text-align: center;  how to change the text align to center*/
+}
+
+#footer a {
+    color: white;
+    font-size: smaller;
+    margin-left: auto;
+    margin-right: auto;
+}

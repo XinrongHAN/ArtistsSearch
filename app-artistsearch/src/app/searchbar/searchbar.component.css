@@ -1,0 +1,102 @@
+#input {
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+#search {
+    display: inline-block;
+    background-color: #205375;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+#clear {
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    margin-top: 10px;
+
+}
+
+#searchform {
+    text-align: center;
+}
+
+#innerblock {
+    display: inline-flex;
+    flex-wrap: nowrap;
+
+}
+
+#cardframe {
+    overflow-x: auto;
+    /* white-space: nowrap; */
+    display: inline-flex;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+#tabsbox {
+    margin-top: 50px;
+}
+
+
+::ng-deep.nav-item {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+::ng-deep tab {
+    text-align: center;
+}
+
+
+::ng-deep.nav-link {
+    color: #205375 !important;
+}
+
+::ng-deep.nav-pills .nav-link.active {
+    background-color: #205375 !important;
+    color: white !important;
+}
+
+::ng-deep.tab-content>.active {
+    text-align: center;
+}
+
+::ng-deep.tab-content {
+    margin: 0;
+}
+
+#noartworks {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+div ::ng-deep .cardNotSelected {
+    background-color: #205375 !important;
+    display: inline-block !important;
+    width: 200px !important;
+    margin: 3px !important
+}
+
+
+div ::ng-deep.cardNotSelected:hover {
+    background-color: #112B3C !important;
+}
+
+div ::ng-deep .cardSelected {
+    background-color: #112B3C !important;
+    display: inline-block !important;
+    width: 200px !important;
+    margin: 3px !important
+}
